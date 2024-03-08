@@ -1,0 +1,22 @@
+# Quick Guide
+
+1. Copy the wakulima file to your documents root e.g under `c:\xampp\htdocs` on windows
+2. Import the `Wakulima.sql` file to your database. (You can create a database called Wakulima using phpmyadmin and import this file into it)
+3. open `inc\config.incl.php` file and enter your database settings
+```php
+define('db_host', 'localhost');
+define('db_user', 'root');
+define('db_password', '');
+define('db_database', 'Wakulima');
+define ('PAGE_URL', './');
+```
+4. Open the url to your project e.g [.] and login with an already created account
+
+## Demo Accounts
+### 1. Manager
+email: 	kenman@gmail.com
+
+
+password: 12345678
+
+ 
